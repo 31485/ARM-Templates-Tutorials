@@ -20,5 +20,5 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/31485/ERIS-ARM-Templates/main/kv-azuredeploy.json'
-    csmParametersFileLink: 'https://github.com/31485/ERIS-ARM-Templates/blob/main/kv-azuredeploy.parameters.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/31485/ERIS-ARM-Templates/main/kv-azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
