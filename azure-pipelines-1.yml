@@ -20,6 +20,6 @@ steps:
     resourceGroupName: 'rg-eris-application-dev-eastus'
     location: 'East US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/31485/ERIS-ARM-Templates/blob/main/sa-azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/31485/ERIS-ARM-Templates/main/sa-azuredeploy.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/31485/ERIS-ARM-Templates/main/sa-azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
