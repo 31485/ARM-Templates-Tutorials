@@ -21,7 +21,7 @@
             "tags": {
                 "displayName": "storageaccount1"
             },
-            "location": "[resourceGroup().location]",
+            "location": "South India",
             "kind": "Storage",
             "sku": {
                 "name": "Standard_LRS",
