@@ -1,0 +1,25 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'ERIS_App_Pipeline_Connection'
+    subscriptionId: '2688a180-ce56-47e0-98ae-04064c97f5c4'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'rg-eris-application-dev-eastus'
+    location: 'East US'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://github.com/31485/ERIS-ARM-Templates/blob/main/sa-azuredeploy.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/31485/ERIS-ARM-Templates/main/sa-azuredeploy.parameters.json'
+    deploymentMode: 'Incremental'
