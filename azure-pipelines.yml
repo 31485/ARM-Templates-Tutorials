@@ -17,7 +17,7 @@ steps:
     subscriptionId: '2688a180-ce56-47e0-98ae-04064c97f5c4'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-sandbox-eris-application-dev-southindia'
-    location: 'West US'
+    location: 'South India'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/31485/ARM-Templates-Tutorials/blob/main/azuredeploy.json'
     csmParametersFileLink: 'https://github.com/31485/ARM-Templates-Tutorials/blob/main/azuredeploy.parameters.json'
