@@ -6,13 +6,13 @@
             "value": "kverisdeveastus" 
         },
         "tenantId": {
-            "value": "70115954-0ccd-45f0-87bd-03b2a3587569" 
+            "value": "" 
         },
         "objectId": {
             "value": ""
         },
         "keyVaultSecretName": {
-            "value": "kvs-eris-application-dev-eastus"
+            "value": "kvserisdeveastus"
         }
     }
 }
